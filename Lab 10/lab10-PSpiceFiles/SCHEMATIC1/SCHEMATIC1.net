@@ -1,0 +1,36 @@
+* source LAB10
+M_M28         N08157 N08161 N08245 N08245 MbreakP           
+M_M29         N08157 N08161 0 0 MbreakN           
+V_V11         N08245 0 5V
+V_V12         N08161 0  
++PULSE 0 5V 0 1n 1n .1m .2m
+M_M30         N08338 N08342 N08161 N08161 MbreakP           
+M_M31         N08338 N08342 0 0 MbreakN           
+M_M32         N08338 N08157 N08560 N08245 MbreakP           
+M_M33         N08338 N08161 N08560 0 MbreakN           
+R_R1         N08338 N08847  1k TC=0,0 
+C_C1         N08342 N08847  100u  TC=0,0 
+M_M35         N10523 N08342 0 0 MbreakN           
+M_M34         N10523 N08342 N08847 N08847 MbreakP           
+M_M36         N10527 N11275 N08847 N08847 MbreakP           
+M_M37         N10527 N11275 0 0 MbreakN           
+M_M38         N10531 N11287 N08847 N08847 MbreakP           
+M_M41         N10535 N11299 0 0 MbreakN           
+M_M39         N10535 N11299 N08847 N08847 MbreakP           
+M_M40         N10531 N11287 0 0 MbreakN           
+M_M43         N10549 N11323 N08847 N08847 MbreakP           
+M_M44         N08342 N11335 N08847 N08847 MbreakP           
+M_M45         N10545 N11311 0 0 MbreakN           
+M_M42         N10545 N11311 N08847 N08847 MbreakP           
+M_M46         N10549 N11323 0 0 MbreakN           
+M_M47         N08342 N11335 0 0 MbreakN           
+V_V13         N12002 0 5V
+M_M48         N12197 N12102 N12002 N12002 MbreakP           
+M_M49         N12277 N12197 N12002 N12002 MbreakP           
+M_M50         N12102 N12102 N12002 N12002 MbreakP           
+M_M51         N12102 N13230 N12924 N12874 MbreakN           
+M_M52         N12277 N12197 0 0 MbreakN           
+M_M53         N12197 N08342 N12924 N12874 MbreakN           
+M_M54         N12924 N12002 N12874 N12874 MbreakN           
+V_V14         N13230 0 3V
+V_V15         N12874 0 -5v
